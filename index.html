@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+
+        img {
+            height: 250px;
+        }
+
+    </style>
+
 </head>
 <body>
     
-    <div id="box"></div>
+    <div id="box1"></div>
 
     <script>
 
@@ -17,7 +26,7 @@
         let number = 1;
 
 do {
-    box.innerHTML += `
+    box1.innerHTML += `
     <img src="images/${number}.jpg" alt="">
     `;
     number++;
